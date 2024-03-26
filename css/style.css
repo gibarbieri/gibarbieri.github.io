@@ -13,13 +13,9 @@ body {
 }
 
 body {
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
     color: black;
     background: rgb(40, 31, 208);
-    background: linear-gradient(0deg, rgba(182, 251, 255, 1) -5%, rgba(0, 172, 255, 1) 100%);
+    background: linear-gradient(0deg, rgba(182, 251, 255, 1) 30%, rgba(0, 172, 255, 1) 100%);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -27,13 +23,15 @@ body {
 
 .container {
     max-width: 600px;
+    min-height: 100%;
     margin: 0 auto;
+    padding: 50px 0;
 }
 
 h1 {
     font-size: 24px;
     margin-bottom: 8px;
-    font-weight: 900;
+    font-weight: 500 !important;
 }
 
 h2 {
@@ -43,4 +41,13 @@ h2 {
 
 h2:last-of-type {
     font-family: sans-serif;
+}
+
+.noto-serif-title {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }

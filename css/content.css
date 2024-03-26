@@ -4,7 +4,7 @@
 
 .links-list li {
     display: flex;
-    margin: 20px 20px;
+    margin: 25px 20px;
     padding: 0 10px;
     align-items: center;
     justify-content: space-between;
@@ -45,4 +45,14 @@
 
 .active {
     box-shadow: 0 0 10px black;
+    animation: pulsate 1s infinite alternate;
+}
+
+@keyframes pulsate {
+    from {
+        box-shadow: 0 0 7px black;
+    }
+    to {
+        box-shadow: 0 0 15px black;
+    }
 }
