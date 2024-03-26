@@ -1,0 +1,12 @@
+.profile {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.avatar {
+    width: 110px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+    margin-bottom: 10px;
+}

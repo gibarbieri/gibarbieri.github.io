@@ -1,0 +1,46 @@
+@import "profile.css";
+@import "icons-list.css";
+@import "content.css";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    background: rgb(40, 31, 208);
+    background: linear-gradient(0deg, rgba(182, 251, 255, 1) -5%, rgba(0, 172, 255, 1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 8px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 900;
+}
+
+h2:last-of-type {
+    font-family: sans-serif;
+}

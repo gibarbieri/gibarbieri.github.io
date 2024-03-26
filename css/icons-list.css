@@ -1,0 +1,11 @@
+.social {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 30px 25%;
+}
+
+.social img {
+    width: 50px;
+    border-radius: 50%;
+}
