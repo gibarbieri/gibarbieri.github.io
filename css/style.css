@@ -15,7 +15,7 @@ body {
 body {
     color: black;
     background: rgb(40, 31, 208);
-    background: linear-gradient(0deg, rgba(182, 251, 255, 1) 30%, rgba(0, 172, 255, 1) 100%);
+    background: linear-gradient(0deg, rgba(20,76,91,1) 30%, rgba(101,175,190,1) 100%);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -32,11 +32,13 @@ h1 {
     font-size: 24px;
     margin-bottom: 8px;
     font-weight: 500 !important;
+    color: white;
 }
 
 h2 {
     font-size: 16px;
     font-weight: 900;
+    color: white;
 }
 
 h2:last-of-type {
