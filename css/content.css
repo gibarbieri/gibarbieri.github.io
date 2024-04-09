@@ -45,22 +45,26 @@
 
 .active {
     box-shadow: 0 0 10px white;
-    animation: pulsate 1s infinite alternate;
     transition: all ease-in 150ms;
+    /* animation: pulsate 1s infinite alternate; */
 }
 
 @media (min-width: 901px) {
     .active:hover {
         transform: scale(1.05);
     }
+
+    .social img.active:hover {
+        transform: scale(1.2);
+    }
 }
 
 
-@keyframes pulsate {
+/* @keyframes pulsate {
     from {
         box-shadow: 0 0 7px white;
     }
     to {
         box-shadow: 0 0 15px whitek;
     }
-}
+} */
